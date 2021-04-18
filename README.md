@@ -33,4 +33,5 @@ DELETE: https://apihillas.herokuapp.com/challengeAPI/country/delete/10
 
 •	Ordenar a lista dos países por qualquer uma das suas propriedades
 GET: https://apihillas.herokuapp.com/challengeAPI/country/orderBy/name
+
 “name” é um dos parametros de ordenamento, outros são name, capital, region, subregion, area.
