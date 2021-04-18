@@ -35,3 +35,10 @@ DELETE: localhost:8080/challengeAPI/country/delete/10
 GET: localhost:8080/challengeAPI/country/orderBy/name
 “name” é um dos parametros de ordenamento, outros são name, capital, region, subregion, area.
 
+Para executar a API localmente
+Aceda a pasta: 
+challengeAPI\target no terminal e execute o seguinte comando:
+java -jar challengeAPI-0.0.1-SNAPSHOT.jar
+
+Em seguida, abra o Postman e insira as url's apresentadas.
+
