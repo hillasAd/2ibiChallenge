@@ -1,19 +1,19 @@
 # 2ibiChallenge
 Challenge to back-end engeneer
 
-Back-end engineer challenge
-Hilário Francisco
-Email: hilario20101@hotmail.com
-Linked In: https://www.linkedin.com/in/hilárioAmamo/ 
-845017001
-Maputo
+#Back-end engineer challenge
+#Hilário Francisco
+#Email: hilario20101@hotmail.com
+#Linked In: https://www.linkedin.com/in/hilárioAmamo/ 
+#845017001
+#Maputo
 
-API RESTful
- Instruções sobre o desafio
-A API foi desenvolvida em java e o Sistema de Gestão de Base de Dados escolhido foi MySQL.
-IDE de desenvolvimento SpringToolSuite4.
-Postman para teste das url.
-URL's para teste e avaliação da API
+#API RESTful
+#Instruções sobre o desafio
+#A API foi desenvolvida em java e o Sistema de Gestão de Base de Dados escolhido foi MySQL.
+#IDE de desenvolvimento SpringToolSuite4.
+#Postman para teste das url.
+#URL's para teste e avaliação da API
 
 •	Criar um novo país
 POST: https://apihillas.herokuapp.com/challengeAPI/country/save
@@ -33,5 +33,4 @@ DELETE: https://apihillas.herokuapp.com/challengeAPI/country/delete/10
 
 •	Ordenar a lista dos países por qualquer uma das suas propriedades
 GET: https://apihillas.herokuapp.com/challengeAPI/country/orderBy/name
-
 “name” é um dos parametros de ordenamento, outros são name, capital, region, subregion, area.
