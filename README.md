@@ -13,34 +13,24 @@ API RESTful
 A API foi desenvolvida em java e o Sistema de Gestão de Base de Dados escolhido foi MySQL.
 IDE de desenvolvimento SpringToolSuite4.
 Postman para teste das url.
-URL para teste local
+URL's para teste e avaliação da API
 
 •	Criar um novo país
-POST: localhost:8080/challengeAPI/country/save
+POST: https://apihillas.herokuapp.com/challengeAPI/country/save
 Atributos (name, capital, region, subregion, area).
 
 •	Listar todos os países
-GET: localhost:8080/challengeAPI/countries
+GET: https://apihillas.herokuapp.com/challengeAPI/countries
 
 •	Modificar os dados de um país
-PUT: localhost:8080/challengeAPI/country/update/10
+PUT: https://apihillas.herokuapp.com/challengeAPI/country/update/10
 10 corresponde ao id do país que pretende modificar.
 No corpo do response deve informar as propriedades que deseja alterar, tal como procedeu no “Criar um novo país”.
 
 •	Eliminar um país
-DELETE: localhost:8080/challengeAPI/country/delete/10
+DELETE: https://apihillas.herokuapp.com/challengeAPI/country/delete/10
 10 corresponde ao id do país que pretende eliminar.
 
 •	Ordenar a lista dos países por qualquer uma das suas propriedades
-GET: localhost:8080/challengeAPI/country/orderBy/name
+GET: https://apihillas.herokuapp.com/challengeAPI/country/orderBy/name
 “name” é um dos parametros de ordenamento, outros são name, capital, region, subregion, area.
-
-Para executar a API localmente
-crie uma base de dados (challengeapi) no mysql e as credenciais de acesso (user=root, password="")
-faça import do file challengeapi.sql (encontra-se na raiz do projecto)
-Aceda a pasta: 
-challengeAPI\target no terminal e execute o seguinte comando:
-java -jar challengeAPI-0.0.1-SNAPSHOT.jar
-
-Em seguida, abra o Postman e insira as url's apresentadas.
-
