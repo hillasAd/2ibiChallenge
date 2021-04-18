@@ -36,6 +36,8 @@ GET: localhost:8080/challengeAPI/country/orderBy/name
 “name” é um dos parametros de ordenamento, outros são name, capital, region, subregion, area.
 
 Para executar a API localmente
+crie uma base de dados (challengeapi) no mysql e as credenciais de acesso (user=root, password="")
+faça import do file challengeapi.sql (encontra-se na raiz do projecto)
 Aceda a pasta: 
 challengeAPI\target no terminal e execute o seguinte comando:
 java -jar challengeAPI-0.0.1-SNAPSHOT.jar
