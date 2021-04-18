@@ -1,19 +1,25 @@
 # 2ibiChallenge
 Challenge to back-end engeneer
 
-#Back-end engineer challenge
-#Hilário Francisco
-#Email: hilario20101@hotmail.com
-#Linked In: https://www.linkedin.com/in/hilárioAmamo/ 
-#845017001
-#Maputo
+Hilário Francisco
 
-#API RESTful
-#Instruções sobre o desafio
-#A API foi desenvolvida em java e o Sistema de Gestão de Base de Dados escolhido foi MySQL.
-#IDE de desenvolvimento SpringToolSuite4.
-#Postman para teste das url.
-#URL's para teste e avaliação da API
+Email: hilario20101@hotmail.com#Linked In: https://www.linkedin.com/in/hilárioAmamo/ 
+
+845017001
+
+Maputo
+
+API RESTful
+
+Instruções sobre o desafio
+
+A API foi desenvolvida em java e o Sistema de Gestão de Base de Dados escolhido foi MySQL.
+
+IDE de desenvolvimento SpringToolSuite4.
+
+Postman para teste das url.
+
+URL's para teste e avaliação da API
 
 •	Criar um novo país
 POST: https://apihillas.herokuapp.com/challengeAPI/country/save
